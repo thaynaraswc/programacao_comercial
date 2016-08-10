@@ -1,0 +1,90 @@
+<html>
+	<head>
+
+		<meta charset="UTF-8">
+		<title>HOME</title>
+	</head>
+<body>
+	<h1>Apenas um título</h1>
+	<p>Apenas um parágrafo</p>
+	<img src="image/Teste-de-cooper.png" alt="imagem-de-teste"title="Primeira imagem"/><br>
+	<a href="http://www.uft.edu.br" target="blank">Clique aqui para maiores informações</a>
+
+	<table>
+		<caption>Descrição da tabela</caption>
+		<thead>
+			<tr>
+				<th>Nome</th>
+				<th>Sobrenome</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Linha 1 - Coluna 1</td>
+				<td>Linha 1 - Coluna 2</td>
+			</tr>
+
+			<tr>
+				<td>Linha 2 - Coluna 1</td>
+				<td>Linha 2 - Coluna 2</td>
+			</tr>
+
+			<tr>
+				<td>Linha 3 - Coluna 1</td>
+				<td>Linha 3 - Coluna 2</td>
+			</tr>
+		</tbody>
+	</table>
+
+		<h2>Lista ordenada</h2>
+		<ol>
+			<li>ITEM 1</li>
+			<li>ITEM 2</li>
+			<li>ITEM 3</li>
+			<li>ITEM 4</li>
+		</ol>
+
+		<h2>Lista NÃO ordenada</h2>
+		<ul>
+			<li>ITEM 1</li>
+			<li>ITEM 2</li>
+			<li>ITEM 3</li>
+			<li>ITEM 4</li>
+		</ul>
+
+		<form action="/cadastro/" method="post">
+
+			<h1>FORMULÁRIO</h1><br>
+			<label>Nome: </label>
+			<input type="text" name="nome" placeholder="digite seu nome"><br><br>
+
+			<label>Idade:</label>
+			<input type="number" name="Idade" placeholder="digite sua idade"><br><br>
+
+			<label>Sexo:<label><br>
+			<input type="radio" name="sexo" value="1" checked>Feminino<br>
+			<input type="radio" name="sexo" value="2">Masculino<br><br>
+
+			<label>Data de Nascimento</label>
+			<input type="date" name="data_nascimento"><br>
+
+			<label>Curso:</label><br>
+			<select name="curso"><br><br>
+				<option value="1">Ciência da computação</option><br>
+				<option value="2">Ciências economicas</option><br>
+				<option value="3">Artes</option><br>
+				<option value="4">Medicina</option><br>
+				<option value="5">Arquitetura</option><br>
+			<label>TERMOS</label><br>
+
+			<input type="checkbox" name="termo-1" value="termo-de-privacidade">Termo de privacidade<br>
+			<input type="checkbox" name="termo-2" value="termo-de-uso">Termo de uso<br>
+			
+			<label>Senha</label><br>
+			<input type="password" name="senha" placeholder="insira uma senha"><br><br>
+			<input type="submit" value="ENVIAR">
+		</form>
+
+
+</body>
+</html>
