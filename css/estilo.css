@@ -1,0 +1,33 @@
+body{
+  background-color: #ffccff;
+
+}
+
+h1{
+  color: blue;
+  text-align: center;
+}
+
+p{
+  font-family: verdana;
+  font-size: 20px;
+}
+
+th, td{
+  border-bottom: 10px dashed #d0d0d0;
+}
+
+tr:nth-child(even) {background-color: (#00ff00)}
+
+tr:hover{background-color: (#ff00ff)}
+
+#area-mensagem{
+  border: 1px solid #ff0000;
+  padding: 5px 5px 5px 5px;
+}
+
+.destaque{
+  text-transform: uppercase;
+  font-size: 30px;
+  color: yellow;
+}
