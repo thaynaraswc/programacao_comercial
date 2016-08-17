@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>Título da página</title>
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/funcoes.js"></script>
@@ -30,5 +31,88 @@
       Mensagens <span class="badge">4</span>
     </button>
 </div>
+
+<br/>
+<div class="input-group">
+  <span class="input-group-addon">
+    <i class="glyphicon glyphicon-user"></i>
+  </span>
+  <input type="text" class="form-control" placeholder="Nome de usuário">
+</div>
+<br/>
+<div class="jumbotron">
+  <h1>Bem vindo</h1>
+  <p>Seja bem vindo á aula de  Programação</p>
+  <p><a class="btn btn-primary btn-lg" href="#" role="button">Leia mais</a></p>
+</div>
+
+<div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Menu
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#">Início</a></li>
+    <li><a href="#">Sobre</a></li>
+    <li><a href="#">Contato</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Sugestões</a></li>
+  </ul>
+</div>
+<div class="alert-danger espacamento-padrao">
+<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+<span class="sr-only">Erro:</span>
+Endereço de email inválido.
+</div>
+
+
+<div class="alert alert-success espacamento-padrao" role="alert">
+APENAS UM TESTE
+</div>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">Panel heading without title</div>
+  <div class="panel-body">
+    Panel content
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div class="panel-heading">Panel heading</div>
+  <div class="panel-body">
+    <p>TEXTO QUALQUER PARA TESTE</p>
+    <p>TEXTO QUALQUER PARA TESTE</p>
+    <p>TEXTO QUALQUER PARA TESTE</p>
+
+  </div>
+
+  <!-- Table -->
+  <table class="table">
+    Segundo texto para teste
+  </table>
+</div>
+
+<div class="well" id="area-01">
+  Manipulando o DOM com jquery - Teste 01
+</div>
+<div class="well" id="area-02">
+  Manipulando o DOM com jquery - Teste 02
+</div>
+
+<button type="button" class="btn btn-info" onclick="MinhaFuncao1()">
+  EXECUTAR AÇÃO 1
+</button>
+
+<button type="button" class="btn btn-danger" onclick="MinhaFuncao2()">
+  EXECUTAR AÇÃO 2
+</button>
+
+<button type="button" class="btn btn-success" onclick="MinhaFuncao3()">
+  EXECUTAR AÇÃO 3
+</button>
+
+
+
 </body>
 </html>
